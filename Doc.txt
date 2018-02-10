@@ -1,0 +1,12 @@
+Currently breaking up script in order to manage better.
+
+Created a config.php file that will allow the developer to change what they want in the script so that it
+works for their site.
+
+Attempting to change the URL method so that it is an Encrypted url instead of plain text in the URL.
+With the method that the script is design I am practically going to have to rewrite the whole script in
+order to have it do what I want it to do. I am trying to get it to use a MD5 hash that corresponds with
+the users session key. This will allow maximum anonymization, becuase if the user leaves the URL in their
+History they wont be able to access them anoymore after the session expires, the sessions will be expire in 12
+hours or less. Still trying to decide on that part. Either way it is going to be a much more secure way of
+handling the URL's. So I am going to pretty much rewrite the entire script. Here we go.
